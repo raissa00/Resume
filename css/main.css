@@ -1,0 +1,143 @@
+ body {
+     background-color: #F0EEF0;
+ } 
+
+.topNavBar {
+    
+    position: fixed;
+    width: 100%;
+}
+
+.topNavBarInner {
+    padding: 10px 20px;
+}
+
+.logo {
+    font-family: Tahoma;
+    font-size: 24px;
+    font-weight: bold;
+    float: left;
+}
+
+.logoRs {
+    
+    color: #F0746D;
+}
+
+.logoCard {
+    margin-left: 5px;
+    color: #9B9CA1;
+}
+
+
+
+.topNav ul {
+    float: right;
+}
+
+.topNav ul li {
+    float: left;
+    margin: 0 17px;
+}
+
+.topNav ul li a {
+    padding: 5px;
+    color: #A8A7A6;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.topNav ul li a:hover{
+    border-bottom: 2px solid #F0746D;
+}
+
+ .banner {
+     width: auto;
+     height: 534px;
+     background-image: url("../img/rs_cover.jpg");
+     background-position: center;
+     background-size: cover;
+ }
+
+ .banner .mask {
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.7);
+ }
+
+ .userCard {
+     max-width: 949px;
+     background-color: #fff;
+     margin: 0 auto;
+ }
+
+ .cardInfo {
+     padding: 50px;
+ }
+
+ .cardInfo .avatar {
+     float: left;
+ }
+
+ .avatar img {
+     width: 299px;
+     height: 374px;
+ }
+
+ .cardInfo .profile {
+     float: left;
+     margin-left: 60px;
+     width: calc(100% - 359px);
+ }
+
+ .profile .welcome {
+     background-color: #F0746D;
+     color: #fff;
+     padding: 3px 5px;
+     position: relative;
+     display: inline-block;
+ }
+
+ .profile .welcome .triangle {
+    position: absolute;
+    border: 10px solid #F0746D;
+    top: 26px;
+    left: 4px;
+    border-top: 0px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 0px solid transparent
+ }
+
+ .profile > h1 {
+     margin-top: 32px;
+ }
+
+ .profile > .briefIntro {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+ }
+
+ .profile > hr {
+    height: 0;
+    border: none;
+    border-top: 1px solid #DEDEDE;
+ }
+ 
+ .profile dl {
+     padding-top: 25px;
+ }
+
+ .profile dl dd {
+     float: left;
+     width: 70%;
+     padding: 5px 0;
+     color: #9da0a7;
+     
+ }
+
+ .profile dl dt {
+    float: left;
+    width:  30%;
+    padding: 5px 0;
+    font-weight: bold;
+ }
